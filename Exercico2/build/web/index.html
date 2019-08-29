@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        th {
+            background-color: rgba(168, 164, 164, 0.8);
+           
+        }
+
+        tr {
+            background-color: #cccc;
+            margin: 30px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <form action="runTable" method="post">
+        <button type="submit">Comprar</button>
+        <h1>Fogões</h1>
+        <table>
+            <tr>
+                <th>Adicionar</th>
+                <th>QTD</th>
+                <th>Produto</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="fog1" id="check1"></td>
+                <td><input type="number" name="qtdfog1"  min="1" id="qtdfog1" ></td>
+                <td>
+                    Fogão consul 6 bocas Erva Doce CF630 <br><br>
+                    De: R$ 699,00 <br>
+                    Por:R$ 549,00 ou 12x de 45,66 <br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="fog2" id="check2"></td>
+                <td><input type="number" name="qtdfog2" min="1" id="qtdfog2"></td>
+                <td>
+                    Fogão consul 6 bocas Erva Doce BF076B <br><br>
+                    De: R$ 1.199,00 <br>
+                    Por:R$ 999,90 ou 12x de 83,32 <br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="fog3" id="check1"></td>
+                <td><input type="number" name="qtdfog3" min="1" id="qtdfog3"></td>
+                <td>
+                    Fogão consul 5 Celebrate Digital 76Srb com timer <br><br>
+                    De: R$ 1.299,00 <br>
+                    Por:R$ 1.199,90 ou 12x de 99,90 <br>
+                </td>
+            </tr>
+        </table> <br>
+        <h1>Freezer e refrigeradores</h1>
+        <table>
+            <tr>
+                <th>Adicionar</th>
+                <th>QTD</th>
+                <th>Produto</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="free1" id="check1"></td>
+                <td><input type="number" name="qtdfree1" min="1" id="qtdfree1"></td>
+                <td>
+                    Refrigerador Brastemp Frost Fre Duplex Ative BRM50 c/ controle eletrônico - 429L <br><br>
+                    De: R$ 2.899,00 <br>
+                    Por:R$ 2.299,00 ou 12x de 191,66 <br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="free2" id="check2"></td>
+                <td><input type="number" name="qtdfree2" min="1" id="qtdfree2"></td>
+                <td>
+                    Refrigerador frost free Duplex CRM33EB - 263 L <br><br>
+                    De: R$ 1.349,00 <br>
+                    Por:R$ 1.099,90 ou 12x de 91,66 <br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="free3" id="check1"></td>
+                <td><input type="number" name="qtdfree3" min="1" id="qtdfree3"></td>
+                <td>
+                    Refrigerador Electrolux Duplex DC50X c Dispensador de água - 462L Inox<br><br>
+                    De: R$ 2.249,00 <br>
+                    Por:R$ 1.840,90 ou 12x de 154,16 <br>
+                </td>
+            </tr>
+        </table> <br>
+        <h1>Lavadoras</h1>
+        <table>
+            <tr>
+                <th>Adicionar</th>
+                <th>QTD</th>
+                <th>Produto</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="lav1" id="check1"></td>
+                <td><input type="number" name="qtdlav1" min="1" id="qtdlav1"></td>
+                <td>
+                    Lavadoras de roupas Brastemp 11 KG Ative! BWL11A <br><br>
+                    De: R$ 1.419,00 <br>
+                    Por:R$ 1.295,00 ou 12x de 107,66 <br>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="lav2" id="check2"></td>
+                <td><input type="number" name="qtdlav2" min="1" id="qtdlav2"></td>
+                <td>
+                    Lavadoras de roupas Eletrolux 12 Kg Turbo Economia LTE12 <br><br>
+                    De: R$ 1.499,00 <br>
+                    Por:R$ 1.099,90 ou 12x de 91,66 <br>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
